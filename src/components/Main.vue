@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import bgImg from '@/assets/imgs/bg1.png'
+import bgImg from '@/assets/imgs/bg2.png'
 export default {
   name: 'Main',
   data () {
