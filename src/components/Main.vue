@@ -9,12 +9,12 @@
 </template>
 
 <script>
-import bgImg from '@/assets/imgs/bg2.png'
+// import bgImg from '@/assets/imgs/bg2.png'
 export default {
   name: 'Main',
   data () {
     return {
-      bgURL: bgImg
+      bgURL: 'https://image.hyzed.cn/bg2.bf079ac.png'
     }
   }
 }

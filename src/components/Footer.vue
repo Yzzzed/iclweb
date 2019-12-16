@@ -11,29 +11,29 @@
 </template>
 
 <script>
-import CON from '@/assets/imgs/CONFER.png'
-import DON from '@/assets/imgs/DON.png'
-import FOR from '@/assets/imgs/FOR.png'
-import NEW from '@/assets/imgs/NEW.png'
+// import CON from '@/assets/imgs/CONFER.png'
+// import DON from '@/assets/imgs/DON.png'
+// import FOR from '@/assets/imgs/FOR.png'
+// import NEW from '@/assets/imgs/NEW.png'
 export default {
   name: 'Footer',
   data () {
     return {
       footerList: [
         {
-          url: CON,
+          url: 'https://image.hyzed.cn/CONFER.png',
           desc: 'CONFERNCE DETAILS'
         },
         {
-          url: NEW,
+          url: 'https://image.hyzed.cn/NEW.png',
           desc: 'NEWSLETTER-SUBSCRIPTION'
         },
         {
-          url: FOR,
+          url: 'https://image.hyzed.cn/FOR.png',
           desc: 'FORWARDING'
         },
         {
-          url: DON,
+          url: 'https://image.hyzed.cn/DON.png',
           desc: 'DOWNLOADS'
         }
       ]

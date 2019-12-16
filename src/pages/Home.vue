@@ -36,7 +36,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Main from '@/components/Main'
 import Section from '@/components/Section'
-import imgURL from '@/assets/imgs/img01.jpg'
+// import imgURL from '@/assets/imgs/img01.jpg'
 export default {
   name: 'Home',
   components: {
@@ -47,7 +47,7 @@ export default {
   },
   data () {
     return {
-      ICLimg: imgURL
+      ICLimg: 'https://image.hyzed.cn/img01.jpg'
     }
   }
 }

@@ -104,16 +104,16 @@
 </template>
 
 <script>
-import homeImg from '@/assets/imgs/主页.png'
-import envpImg from '@/assets/imgs/信封.png'
+// import homeImg from '@/assets/imgs/主页.png'
+// import envpImg from '@/assets/imgs/信封.png'
 export default {
   name: 'Header',
   data () {
     return {
       size: '65%',
       drawer: false,
-      homeURL: homeImg,
-      envpURL: envpImg,
+      homeURL: 'https://image.hyzed.cn/%E4%B8%BB%E9%A1%B5.png',
+      envpURL: 'https://image.hyzed.cn/%E4%BF%A1%E5%B0%81.png',
       headerNavList: [
         'GENERAL INFORMATIONS',
         'INVITED SPEAKERS',

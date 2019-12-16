@@ -28,9 +28,13 @@ module.exports = {
     path: config.build.assetsRoot,
     filename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production' ?
-      config.build.assetsPublicPath :
-      config.dev.assetsPublicPath
+      config.build.assetsPublicPath : config.dev.assetsPublicPath
   },
+  // externals: {
+  //   'vue': 'Vue',
+  //   'vue-router': 'Router',
+  //   'element-ui': 'ElementUI'
+  // },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
