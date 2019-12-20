@@ -5,7 +5,15 @@
     <Section>
       <template slot="section-header">Registration</template>
       <template slot="section-main">
-        <h1 class="underConstruction">Under construction ...</h1>
+        <el-table
+          :data="tableData"
+          border
+          style="width: 60%; margin: 0 auto;"
+          :span-method="objectSpanMethod"
+        >
+          <el-table-column prop="date" label="date" style="width: 50%" align="center"></el-table-column>
+          <el-table-column prop="price" label="price" style="width: 50%" align="center"></el-table-column>
+        </el-table>
       </template>
     </Section>
     <Footer></Footer>
@@ -24,6 +32,34 @@ export default {
     Footer,
     Main,
     Section
+  },
+  data () {
+    return {
+      tableData: [{
+        date: 'Before April 12',
+        price: 'Regular: 4000 CNY  (510 EUR)'
+      }, {
+        date: '',
+        price: 'Student: 2800 CNY   (360 EUR)'
+      }, {
+        date: 'After April 12',
+        price: 'Regular: 4800 CNY   (610 EUR)'
+      }, {
+        date: '',
+        price: 'Student: 3600 CNY   (460 EUR)'
+      }]
+    }
+  },
+  methods: {
+    objectSpanMethod ({ row, column, rowIndex, columnIndex }) {
+      if (columnIndex === 0) {
+        if (rowIndex % 2 === 0) {
+          return [2, 1]
+        } else {
+          return [0, 0]
+        }
+      }
+    }
   }
 }
 </script>

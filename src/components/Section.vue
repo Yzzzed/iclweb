@@ -38,7 +38,7 @@ export default {
       .header-slot-container
         padding 0.37037rem /* 20/54 */ 0.185185rem /* 10/54 */
         font-size 0.37037rem /* 20/54 */
-        font-weight bold
+        font-weight bolder
     .main
       margin 0.37037rem /* 20/54 */ 0.185185rem /* 10/54 */
       font-size 0.296296rem /* 16/54 */

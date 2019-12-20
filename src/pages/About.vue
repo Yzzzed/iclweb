@@ -5,12 +5,17 @@
     <Section>
       <template slot="section-header">About ICL</template>
       <template slot="section-main">
-        <p
-          class="slot-item"
-        >International Conference on Luminescence (ICL) is a long-standing conference being held every three years.</p>
-        <p
-          class="slot-item"
-        >The conference is for worldwide scientists interested in luminescence research to share their latest findings on luminescence phenomena, materials, techniques, devices, and applications.</p>
+        <p class="slot-item">
+          <span class="weight">International Conference on Luminescence</span> (ICL) is a long-standing
+          conference being held every three years. . In past decade, it has been
+          held in Lyon (France, 2008), Ann Arbor (USA, 2011), Wroclaw (Poland,
+          2014), and Joao Pessoa (Brazil, 2017).
+        </p>
+        <p class="slot-item">
+          The conference is for scientists worldwide interested in luminescence
+          research to share their latest findings on luminescence phenomena,
+          materials, techniques, devices and applications.
+        </p>
       </template>
     </Section>
     <Footer></Footer>
@@ -44,4 +49,6 @@ export default {
     font-size 0.37037rem /* 20/54 */
     line-height 1.5em
     text-align center
+    .weight
+      font-weight bold
 </style>

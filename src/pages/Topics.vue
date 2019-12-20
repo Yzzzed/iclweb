@@ -5,7 +5,20 @@
     <Section>
       <template slot="section-header">Topics</template>
       <template slot="section-main">
-        <h1 class="underConstruction">Under construction ...</h1>
+        <p class="slot-item">New luminescent materials, new synthesis, new methods, novel phenomena</p>
+        <p class="slot-item">Excitons, plasmons, polaritons; scintillation and collective phenomena</p>
+        <p
+          class="slot-item"
+        >Optical spectroscopy in molecular and biological systems and condensed matter</p>
+        <p class="slot-item">Single molecule, single-particle and quantum dot spectroscopy</p>
+        <p class="slot-item">Nanocrystals, quantum-structured materials and micro-cavities</p>
+        <p class="slot-item">Nonlinear optical materials and processes</p>
+        <p class="slot-item">Non-radiative or non-equilibrium phonon effects; thermo-luminescence</p>
+        <p
+          class="slot-item"
+        >Field-induced luminescence in organic and inorganic media, OLEDs and FEDs</p>
+        <p class="slot-item">Applications in technology (white LED, lasers, displays, sensors, etc.</p>
+        <p class="slot-item">Theoretical and computational methos for luminescence phenomena</p>
       </template>
     </Section>
     <Footer></Footer>
@@ -43,4 +56,6 @@ export default {
     font-size 0.37037rem /* 20/54 */
     line-height 1.5em
     text-align center
+    .weight
+      font-weight bold
 </style>

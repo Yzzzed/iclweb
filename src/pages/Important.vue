@@ -5,7 +5,10 @@
     <Section>
       <template slot="section-header">Important Dates</template>
       <template slot="section-main">
-        <h1 class="underConstruction">Under construction ...</h1>
+        <el-table :data="tableData" border style="width: 60%; margin: 0 auto;">
+          <el-table-column prop="date" label="date" style="width: 50%" align="center"></el-table-column>
+          <el-table-column prop="event" label="event" style="width: 50%" align="center"></el-table-column>
+        </el-table>
       </template>
     </Section>
     <Footer></Footer>
@@ -24,6 +27,23 @@ export default {
     Footer,
     Main,
     Section
+  },
+  data () {
+    return {
+      tableData: [{
+        date: 'January 6, 2020',
+        event: 'Opening for abstract submission'
+      }, {
+        date: 'March 1, 2020',
+        event: 'Deadline for abstract submission'
+      }, {
+        date: 'April 12, 2020',
+        event: 'Deadline for early registration'
+      }, {
+        date: 'August 10−14, 2020',
+        event: 'ICL2020'
+      }]
+    }
   }
 }
 </script>

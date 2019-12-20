@@ -8,7 +8,9 @@ import {
   Menu,
   MenuItem,
   Submenu,
-  Drawer
+  Drawer,
+  Table,
+  TableColumn
 } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App'
@@ -27,6 +29,8 @@ Vue.use(Menu)
 Vue.use(MenuItem)
 Vue.use(Submenu)
 Vue.use(Drawer)
+Vue.use(Table)
+Vue.use(TableColumn)
 
 /* eslint-disable no-new */
 new Vue({

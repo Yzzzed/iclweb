@@ -5,7 +5,9 @@
     <Section>
       <template slot="section-header">Conference Program</template>
       <template slot="section-main">
-        <h1 class="underConstruction">Under construction ...</h1>
+        <p
+          class="slot-item"
+        >ICL2020 will contain invited plenary lectures, keynote/invited lectures, contributed presentations and posters.</p>
       </template>
     </Section>
     <Footer></Footer>
